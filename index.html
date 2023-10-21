@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Orafolio</title>
+  </head>
+  <body>
+    <nav class="py-6 uppercase mx-4">
+      <div class="flex items-center justify-between container">
+        <img src="./images/logo.svg" alt="logo" class="w-10 lg:w-8" />
+        <ul class="hidden lg:flex gap-4 items-center justify-center text-md">
+          <li class="hover:underline"><a href="#home">home</a></li>
+          <li class="hover:underline"><a href="#about">about</a></li>
+          <li class="hover:underline"><a href="#works">works</a></li>
+          <li class="hover:underline"><a href="#contact">contact</a></li>
+        </ul>
+        <button class="block lg:hidden cursor-pointer">
+          <img src="./images/bars.svg" alt="bars" class="w-12" />
+        </button>
+      </div>
+    </nav>
+    <main class="mx-4">
+      <section
+        class="container bg-zinc-900 flex flex-col items-center justify-center rounded-3xl p-8 text-white">
+        <div
+          class="max-w-prose flex flex-col items-center justify-center gap-6 text-center my-14">
+          <h1 class="text-5xl font-bold">Visual Designer Based in Indonesia</h1>
+          <p class="text-zinc-300 text-sm font-extralight mt-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            architecto dignissimos dolorum qui velit nam, esse corporis.
+          </p>
+          <button
+            class="bg-gradient-to-b from-orange-400 to-orange-500 font-bold py-2 px-6 rounded-3xl hover:to-orange-700 transition-colors">
+            <a href="#contact">Contact Me</a>
+          </button>
+        </div>
+        <div class="flex flex-col gap-6 lg:flex-row">
+          <div
+            class="relative transition-transform duration-300 rounded-lg overflow-hidden hover:scale-95">
+            <img src="./images/image1.png" alt="two phones" />
+            <p class="absolute bottom-6 left-8 font-bold text-lg">
+              Branding project
+            </p>
+          </div>
+          <div
+            class="relative transition-transform duration-300 rounded-lg overflow-hidden hover:scale-95">
+            <img src="./images/image2.png" alt="two phones" />
+            <p class="absolute bottom-6 left-8 font-bold text-lg">
+              Branding project
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT ME -->
+      <section
+        class="container flex flex-col items-center justify-center gap-8 my-32">
+        <p
+          class="text-zinc-400 text-sm uppercase tracking-[6px] font-extralight">
+          About me
+        </p>
+        <img src="./images/avatar.png" alt="donnie avatar" class="w-56" />
+        <p class="max-w-[32ch] text-3xl font-medium px-12 lg:px-0">
+          Hi I'm Donnie and I am passionate about everything that has to do with
+          Digital Design and Art Direction. I enjoy working with agencies and
+          enthusiastic people who want to solve problems through beautiful
+          designs and experiences
+        </p>
+      </section>
+      <!-- MY WORKS -->
+      <section
+        class="container bg-zinc-900 flex flex-col items-center justify-center rounded-3xl p-8 text-white">
+        <p
+          class="text-zinc-400 text-md uppercase tracking-[6px] font-extralight my-20">
+          what i'm doing
+        </p>
+        <ul
+          class="flex flex-col gap-8 items-center justify-center mb-20 text-4xl md:text-5xl lg:text-6xl">
+          <li
+            class="uppercase hover:-translate-x-3 transition-transform duration-300">
+            branding design
+          </li>
+          <li
+            class="uppercase hover:translate-x-3 transition-transform duration-300">
+            ux/ui design
+          </li>
+          <li
+            class="uppercase hover:-translate-x-3 transition-transform duration-300">
+            development
+          </li>
+          <li
+            class="uppercase hover:translate-x-3 transition-transform duration-300">
+            digital marketing
+          </li>
+        </ul>
+        <div class="flex items-center justify-center gap-8">
+          <div
+            class="relative rounded-3xl overflow-hidden hover:scale-95 transition-transform duration-300">
+            <img src="./images/image3.jpeg" alt="phone" />
+            <p class="absolute bottom-6 left-8 font-bold text-lg">
+              Branding project
+            </p>
+          </div>
+          <div
+            class="relative rounded-3xl overflow-hidden hidden md:block hover:scale-95 transition-transform duration-300">
+            <img src="./images/image4.jpeg" alt="phone" />
+            <p class="absolute bottom-6 left-8 font-bold text-lg">
+              Branding project
+            </p>
+          </div>
+          <div
+            class="relative rounded-3xl overflow-hidden hidden lg:block hover:scale-95 transition-transform duration-300">
+            <img src="./images/image5.jpeg" alt="phone" />
+            <p class="absolute bottom-6 left-8 font-bold text-lg">
+              Branding project
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- CLIENTS -->
+      <section
+        class="container flex flex-col items-center justify-center text-zinc-400">
+        <p class="text-md uppercase tracking-[6px] font-extralight my-20">
+          past clients
+        </p>
+        <div
+          class="w-full sm:flex items-start justify-between px-8 border-b mb-12">
+          <p class="tracking-[4px] hidden sm:block">01</p>
+          <div class="sm:w-1/2 flex flex-col max-w-prose">
+            <img src="./images/fb.png" alt="facebook" class="w-40 mb-6" />
+            <p class="text-sm mb-12">
+              Through our community practice, helping one of the world’s leading
+              technology companies advise and mentor for an ongoing global
+              initiative that spotlights inspirational YouTube creators.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full sm:flex items-start justify-between px-8 border-b mb-12">
+          <p class="tracking-[4px] hidden sm:block">02</p>
+          <div class="sm:w-1/2 flex flex-col max-w-prose">
+            <img src="./images/netflix.svg" alt="netflix" class="w-40 mb-6" />
+            <p class="text-sm mb-12">
+              Through our community practice, helping one of the world’s leading
+              technology companies advise and mentor for an ongoing global
+              initiative that spotlights inspirational YouTube creators.
+            </p>
+          </div>
+        </div>
+        <div class="w-full sm:flex items-start justify-between px-8 mb-12">
+          <p class="tracking-[4px] hidden sm:block">01</p>
+          <div class="sm:w-1/2 flex flex-col max-w-prose">
+            <img src="./images/zoom.svg" alt="zoom" class="w-40 mb-6" />
+            <p class="text-sm mb-12">
+              Through our community practice, helping one of the world’s leading
+              technology companies advise and mentor for an ongoing global
+              initiative that spotlights inspirational YouTube creators.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="bg-zinc-900 text-white rounded-t-3xl">
+      <div
+        class="container flex flex-col lg:flex-row items-center justify-between p-8">
+        <div class="flex flex-col items-center justify-center gap-6 my-20">
+          <img src="./images/avatar.png" alt="donnie avatar" class="w-40" />
+          <p>Visual Designer Based in Indonesia</p>
+        </div>
+        <div
+          class="w-1/2 flex flex-col lg:flex-row items-center gap-12 justify-between">
+          <ul
+            class="flex flex-col justify-center items-center lg:items-start gap-2 text-zinc-400 text-sm">
+            <li class="text-white text-lg">Navigation</li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#home"></a>Home
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#about"></a>About
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#expertise"></a>Expertise
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#work"></a>Work
+            </li>
+          </ul>
+
+          <ul
+            class="flex flex-col justify-center items-center lg:items-start gap-2 text-zinc-400 text-sm">
+            <li class="text-white text-lg">Services</li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#branding"></a>Branding
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#uxui"></a>UX/UI Design
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#development"></a>Development
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#marketing"></a>Digital Marketing
+            </li>
+          </ul>
+
+          <ul
+            class="flex flex-col justify-center items-center lg:items-start gap-2 text-zinc-400 text-sm">
+            <li class="text-white text-lg">Social Media</li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#dribble"></a>Dribble
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#twitter"></a>Twitter
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#instagram"></a>Instagram
+            </li>
+            <li class="cursor-pointer hover:underline">
+              <a href="#linkedin"></a>LinkedIn
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="text-center text-zinc-600 py-8 border-t border-zinc-600">
+        2023 | Donnie Yen
+      </p>
+    </footer>
+  </body>
+</html>
